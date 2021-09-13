@@ -1,0 +1,83 @@
+.App-header {
+	background-color: #c164db;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.mainElements {
+	background-color: #dd62ff;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainContainer {
+	display: flex;
+}
+.listElements {
+	background-color: #d59ae6;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 40px;
+	border: 2px groove #585858;
+	border-radius: 9px;
+	font-weight: bold;
+}
+.listElementsText {
+	font-size: 20px;
+	text-align: center;
+	bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.listElementsButton {
+	font-size: 20px;
+	font-family: Arial;
+	color: rgba(255, 255, 255, 1);
+	border: 3px groove #585858;
+	border-radius: 20px;
+	margin-left: auto;
+	background-color: #9462a1;
+}
+.fetchElements {
+	background-color: #d59ae6;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 40px;
+	border: 2px groove #585858;
+	border-radius: 9px;
+	font-weight: bold;
+}
+.fetchElements:hover {
+	background: rgba(84, 87, 87, 1);
+}
+
+.listElementsButton:hover {
+	background: rgb(255, 0, 0);
+}
+.listElementsBTNText {
+	font-size: 20px;
+	text-align: center;
+}
+.listButtons {
+	font-size: 25px;
+	border: 2px groove #585858;
+	border-radius: 9px;
+	font-weight: bold;
+	margin-left: auto;
+	background-color: #a22ac4;
+	align-items: center;
+}
+.listButtons:hover {
+	background: rgb(168, 165, 165);
+}
+.image {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
